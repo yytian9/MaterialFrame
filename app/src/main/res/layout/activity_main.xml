@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/recyclerview_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="recyclerview_test"/>
+
+    <ImageView
+        android:id="@+id/iv_fresco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/frsco_img1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        fresco:roundedCornerRadius="5dp"
+        fresco:roundBottomLeft="false"
+        fresco:roundBottomRight="false"
+        fresco:roundWithOverlayColor="#333333"
+        fresco:roundingBorderWidth="1dp"
+        fresco:roundingBorderColor="#222222"/>
+</LinearLayout>
