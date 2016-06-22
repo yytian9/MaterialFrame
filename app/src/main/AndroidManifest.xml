@@ -18,7 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activity.RecyclerviewActivity">
+        <activity android:name=".activity.RecyclerViewActivity">
         </activity>
         <!--下面是leakcanary的处理-->
         <service android:name=".service.LeakUploadService"/>

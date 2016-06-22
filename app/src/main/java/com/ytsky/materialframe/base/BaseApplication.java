@@ -73,6 +73,27 @@ public class BaseApplication extends Application {
         return mInstance.mRefWatcher;
     }
 
+    public static BaseApplication getApplication() {
+        return mInstance;
+    }
+
+    public static int getMainThreadId() {
+        return mMainThreadId;
+    }
+
+    public static Thread getMainThread() {
+        return mMainThread;
+    }
+
+    public static Handler getMainThreadHandler() {
+        return mMainThreadHandler;
+    }
+
+    public static Looper getAppMainLooper() {
+        return mMainLooper;
+    }
+
+
     /**
      * 捕获未声明的异常
      */

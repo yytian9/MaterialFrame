@@ -29,7 +29,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.recyclerview_test:
-                startActivity(new Intent(this,RecyclerviewActivity.class));
+                startActivity(new Intent(this,RecyclerViewActivity.class));
                 break;
 
             default:

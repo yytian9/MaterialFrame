@@ -19,7 +19,6 @@ public class MyTestHolder extends BaseHolder {
     }
     public void setContent(int data){
         mTextView.setText(data+"");
-        int adapterPosition = getAdapterPosition();
     }
 
 }
